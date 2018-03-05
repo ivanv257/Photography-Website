@@ -1,0 +1,284 @@
+/* Project for Nadine van Zyl portfolio.
+HTML | CSS
+Date started: 16 April 2017
+Date Completed: WIP
+Author: Ivan van der Merwe
+*/
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+
+header ul {
+  text-align: center;
+  list-style: none;
+  margin-bottom: -25px;
+
+}
+
+header ul li {
+  display: inline-grid;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-family: sans-serif;
+  font-size: 0.75rem;
+  color: #383838;
+  letter-spacing: 5px;
+  z-index: 999;
+}
+
+header li a {
+  text-decoration: none;
+  color: #383838;
+
+}
+
+.border {
+  border-bottom: 2px solid black;
+}
+
+/* Get full size image from Nadine!!!! */
+header {
+  background-image: url("images/Nadine3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+
+}
+
+.headingtext p {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+.portfolio h3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.portfolio p {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.portfoliogallery {
+  text-align: center;
+}
+
+.topgallery img{
+  padding: 5px;
+}
+
+
+.topgallery img:hover {
+  opacity: 0.6;
+}
+
+
+
+.midgallery img{
+  margin-top: -30px;
+  padding: 5px;
+}
+
+.midgallery img:hover {
+  opacity: 0.6;
+}
+
+.bottomgallery img{
+  margin-top: -30px;
+  padding: 5px;
+}
+
+.bottomgallery img:hover{
+  opacity: 0.6;
+}
+
+.mystory {
+  margin-top: 10%;
+  padding-bottom: 90px;
+  background-color:#fff8e5;
+}
+
+
+.mystory h3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.mystory p {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: -30px;
+}
+
+#abouttext {
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+
+#readmorebutton {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#readmorebutton a {
+  text-decoration: none;
+  color: #383838;
+}
+
+.blog h3 {
+  font-family: sans-serif;
+  font-size: 1rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.blog p {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: -30px;
+}
+
+.blogimages {
+  text-align: center;
+}
+
+.blogimages img {
+  padding: 15px;
+}
+
+.blogimages img:hover{
+  opacity: 0.6;
+}
+
+
+.hovercontainer {
+    position: relative;
+    width: 50%;
+}
+
+
+
+.bottomcontact {
+  text-align: center;
+
+}
+
+.bottomcontact h3 {
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 6px;
+  color: #383838;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.bottomcontact ul {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.bottomcontact li{
+  display: inline-grid;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bottomcontact a {
+  color: #383838;
+  text-decoration: none;
+}
+
+.bottomcontact a:hover {
+  color:#c1c1c1;
+}
+
+
+
+
+
+footer {
+  margin-top: -15%;
+  margin-bottom: -5px;
+}
+
+footer p {
+
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+
+
+/* Body no Margins*/
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
