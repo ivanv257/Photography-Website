@@ -9,7 +9,6 @@ The website is according to her requirements and some examples she presented.
 The website did not go live as the client eventually chose to continue with a wordpress template website. 
 
 <h3>Additional Notes:</h3>
-<li><ul>One of my first landing pages created with galleries and multiple sections. 
-    </ul>
-    <ul>Not mobile friendly.  
-    </ul></li>
+<ul><li>One of my first landing pages created with galleries and multiple sections.</li>
+    <li>Not mobile friendly.</li>
+</ul>
