@@ -12,4 +12,4 @@ The website did not go live as the client eventually chose to continue with a wo
 <li><ul>One of my first landing pages created with galleries and multiple sections. 
     </ul>
     <ul>Not mobile friendly.  
-    </ul> <li>
+    </ul></li>
