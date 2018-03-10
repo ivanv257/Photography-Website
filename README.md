@@ -7,8 +7,6 @@ I had the pleasure to create a Website for Nadine van Zyl, a professional and ve
 <br/>
 The website is according to her requirements and some examples she presented.
 
-<blockquote>The website did not go live as the client eventually chose to continue with a wordpress template website.</blockquote> 
-
 <h3>Additional Notes:</h3>
 <ul><li>One of my first landing pages created with galleries and multiple sections.</li>
     <li>Not mobile friendly.</li>
