@@ -1,5 +1,5 @@
 # Photography-Website
-HTML and CSS Landing Page
+HTML/CSS Landing Page
 
 <h2>Photography Website for Nadine van Zyl</h2>
 <h3>Brief:</h3>
