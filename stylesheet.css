@@ -5,7 +5,29 @@ Date Completed: WIP
 Author: Ivan van der Merwe
 */
 
+/************************ Reset pre-defining margins and other ***************************/
 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,
+p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,
+dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,
+u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,
+tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,
+summary,time,mark,audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*************************** end of reset *********************************/
 
 
 .col-1 {width: 8.33%;}
@@ -22,23 +44,20 @@ Author: Ivan van der Merwe
 .col-12 {width: 100%;}
 
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 [class*="col-"] {
-    float: left;
-    padding: 15px;
+  float: left;
+  padding: 15px;
 }
-
-
 
 header ul {
   text-align: center;
   list-style: none;
   margin-bottom: -25px;
-
 }
 
 header ul li {
@@ -55,7 +74,6 @@ header ul li {
 header li a {
   text-decoration: none;
   color: #383838;
-
 }
 
 .border {
@@ -63,6 +81,7 @@ header li a {
 }
 
 /* Get full size image from Nadine!!!! */
+
 header {
   background-image: url("images/Nadine3.jpg");
   background-size: cover;
@@ -70,7 +89,6 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
-
 }
 
 .headingtext p {
@@ -81,8 +99,6 @@ header {
   text-align: center;
   margin-top: 5%;
 }
-
-
 
 .portfolio h3 {
   font-family: sans-serif;
@@ -106,18 +122,15 @@ header {
   text-align: center;
 }
 
-.topgallery img{
+.topgallery img {
   padding: 5px;
 }
-
 
 .topgallery img:hover {
   opacity: 0.6;
 }
 
-
-
-.midgallery img{
+.midgallery img {
   margin-top: -30px;
   padding: 5px;
 }
@@ -126,21 +139,20 @@ header {
   opacity: 0.6;
 }
 
-.bottomgallery img{
+.bottomgallery img {
   margin-top: -30px;
   padding: 5px;
 }
 
-.bottomgallery img:hover{
+.bottomgallery img:hover {
   opacity: 0.6;
 }
 
 .mystory {
   margin-top: 10%;
   padding-bottom: 90px;
-  background-color:#fff8e5;
+  background-color: #fff8e5;
 }
-
 
 .mystory h3 {
   font-family: sans-serif;
@@ -206,21 +218,17 @@ header {
   padding: 15px;
 }
 
-.blogimages img:hover{
+.blogimages img:hover {
   opacity: 0.6;
 }
 
-
 .hovercontainer {
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 50%;
 }
-
-
 
 .bottomcontact {
   text-align: center;
-
 }
 
 .bottomcontact h3 {
@@ -241,7 +249,7 @@ header {
   font-size: 20px;
 }
 
-.bottomcontact li{
+.bottomcontact li {
   display: inline-grid;
   padding-left: 20px;
   padding-right: 20px;
@@ -253,12 +261,8 @@ header {
 }
 
 .bottomcontact a:hover {
-  color:#c1c1c1;
+  color: #c1c1c1;
 }
-
-
-
-
 
 footer {
   margin-top: -15%;
@@ -266,15 +270,13 @@ footer {
 }
 
 footer p {
-
   font-family: sans-serif;
   font-size: 0.7rem;
   text-align: center;
 }
 
-
-
 /* Body no Margins*/
+
 body {
   width: 100%;
   height: 100%;
