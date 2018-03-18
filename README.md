@@ -9,7 +9,7 @@ The website is according to her requirements and some examples she presented.
 
 <h3>Additional Notes:</h3>
 <ul><li>One of my first landing pages created with galleries and multiple sections.</li>
-    <li>Not mobile friendly.</li>
+    
 </ul>
 
 <h4>Demo</h4>
