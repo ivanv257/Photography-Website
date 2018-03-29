@@ -14,3 +14,5 @@ The website is according to her requirements and some examples she presented.
 
 <h4>Demo</h4>
 View Demo Site here: https://ivanv257.github.io/Photography-Website/.
+
+Ivan van der Merwe 2018
